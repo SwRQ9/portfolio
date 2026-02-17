@@ -112,7 +112,7 @@ export function ContactSection() {
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/sultanbahasan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"

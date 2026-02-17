@@ -73,7 +73,7 @@ export function Header() {
                 <FiGithub className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/sultanbahasan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -130,7 +130,7 @@ export function Header() {
                   <FiGithub className="w-4 h-4" /> GitHub
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/sultanbahasan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
