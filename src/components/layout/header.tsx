@@ -88,12 +88,12 @@ export function Header() {
                 <BiDownload className="w-4 h-4" />
                 <span className="text-sm font-medium">CV</span>
               </a>
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
             </div>
 
             {/* Mobile Menu Button */}
             <div className="md:hidden flex items-center gap-2">
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
