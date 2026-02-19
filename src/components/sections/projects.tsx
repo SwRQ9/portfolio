@@ -7,6 +7,10 @@ import Link from 'next/link';
 import { projects } from '@/data/portfolio';
 import { Project } from '@/types';
 
+const isVideoUrl = (url: string): boolean => {
+  return url.endsWith('.webm') || url.endsWith('.mp4') || url.endsWith('.mov');
+};
+
 function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="group cursor-pointer">
@@ -53,7 +57,7 @@ function ProjectCard({ project }: { project: Project }) {
               rel="noopener noreferrer"
               className="flex-1 px-3 py-2 rounded text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors flex items-center justify-center gap-1"
             >
-              <FiExternalLink className="w-4 h-4" /> Live
+              <FiExternalLink className="w-4 h-4" /> {isVideoUrl(project.links.live) ? 'Video Demo' : 'Live'}
             </a>
           )}
           {project.links.github && (
@@ -223,7 +227,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                 >
-                  <FiExternalLink className="w-4 h-4" /> View Live
+                  <FiExternalLink className="w-4 h-4" /> {isVideoUrl(project.links.live) ? 'Video Demo' : 'View Live'}
                 </a>
               )}
               {project.links.github && (

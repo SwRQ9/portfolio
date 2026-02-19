@@ -83,6 +83,7 @@ export const projects: Project[] = [
     category: 'civic-tech',
     tags: ['PHP', 'MySQL', 'Leaflet.js', 'Geospatial', 'Maps'],
     links: {
+      live: "/projects/prs/VideoDemo.webm",
       github: 'https://github.com/SwRQ9/Public-Reporting-System',
     },
     details: {
