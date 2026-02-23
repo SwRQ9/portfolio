@@ -71,7 +71,14 @@ export const projects: Project[] = [
     "The application follows Laravel's MVC structure with clear separation between controllers, models, and views. Authorization logic is handled through role and permission layers, ensuring controlled access to routes and resources. Database relationships are structured to maintain data integrity across activity records and user roles.",
   securityPerformance:
     "Access to system features is restricted through RBAC policies enforced at both route and controller levels. Server-side validation ensures data integrity, while query optimization and relational indexing improve dashboard responsiveness under active usage.",
-  screenshots: [],
+  screenshots: [
+    "/projects/crm/01-permissions.png",
+    "/projects/crm/02-daily-activity.png",
+    "/projects/crm/03-new-submission.png",
+    "/projects/crm/04-analytics(1).png",
+    "/projects/crm/05-analytics(2).png",
+    "/projects/crm/06-light-mode.png",
+  ],
 },
 
   },
